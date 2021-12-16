@@ -1,0 +1,57 @@
+<resources>
+<!--    App Name-->
+    <string name="app_name">Weight Converter</string>
+<!--    Main Conversion Page Strings-->
+    <string name="Conversion_Distance">Distance Conversion</string>
+    <string name="Conversion_Time">Time Conversion</string>
+    <string name="Conversion_Temperature">Temperature Conversion</string>
+    <string name="Conversion_Weight">Weight Conversion</string>
+    <string name="Conversion_Title">Conversion Options</string>
+    <string name="Temperature_Title">Temperature Conversion</string>
+    <string name="Time_Title">Time Conversion</string>
+    <string name="Weight_Title">Weight Conversion</string>
+<!--    Main Button Strings-->
+    <string name="Conversion_Options_Logout">Logout</string>
+    <string name="Convert_Button">Convert</string>
+    <string name="Copy_Button">Copy</string>
+    <string name="Back_Button">Back</string>
+    <string name="Login_Button">Login</string>
+    <string name="Register_Button">Register</string>
+<!--    Login & Register Page Strings-->
+    <string name="Login_Title">Login</string>
+    <string name="Register_Title">Register</string>
+    <string name="Enter_Email">Please enter your email:</string>
+    <string name="Enter_Password">Please enter your password:</string>
+    <string name="Enter_Password_Confirmation">Please confirm your password:</string>
+    <string name="Terms_accept">I accept the terms of service</string>
+
+
+
+    <string-array name="distanceSpinnerItems">
+        <item>mm</item>
+        <item>cm</item>
+        <item>m</item>
+        <item>km</item>
+    </string-array>
+
+    <string-array name="temperatureSpinnerItems">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="timeSpinnerItems">
+        <item>S</item>
+        <item>M</item>
+        <item>H</item>
+    </string-array>
+
+    <string-array name="weightSpinnerItems">
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".distance"
+    android:background="@drawable/img5">
+
+    <TextView
+        android:id="@+id/DistanceConversionPageTitle"
+        android:layout_width="395dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#000090FF"
+        android:fontFamily="casual"
+        android:text="@string/Conversion_Distance"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBackDistance"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#00958585"
+        android:fontFamily="casual"
+        android:text="@string/Back_Button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="288dp" />
+
+
+    <Spinner
+        android:id="@+id/spnEndValue"
+        android:layout_width="91dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnInitialValue" />
+
+
+    <EditText
+        android:id="@+id/edEndValue"
+        android:layout_width="123dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edInitialValue" />
+
+    <EditText
+        android:id="@+id/edInitialValue"
+        android:layout_width="123dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DistanceConversionPageTitle" />
+
+    <Spinner
+        android:id="@+id/spnInitialValue"
+        android:layout_width="91dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DistanceConversionPageTitle" />
+
+    <Button
+        android:id="@+id/btnCopy"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="86dp"
+        android:backgroundTint="#00958585"
+        android:fontFamily="casual"
+        android:text="@string/Copy_Button"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnEndValue" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="37dp"
+        android:backgroundTint="#00958585"
+        android:fontFamily="casual"
+        android:text="@string/Convert_Button"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edEndValue" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
